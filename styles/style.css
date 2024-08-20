@@ -1,0 +1,49 @@
+
+
+:root{
+    --color-primario:#E8E8E8;
+    --color-secundario:#9B9797;
+    --color-botonEncriptar:#0A3871;
+    --color-botonDesencriptar-y-Copiado:#D8DFE8;
+    --color-botonCopiado:#FFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: white;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+.logo_alura{
+
+}
+
+textarea {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 150px; 
+    box-sizing: border-box; 
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+#copiarTexto {
+    display: none;
+}
+

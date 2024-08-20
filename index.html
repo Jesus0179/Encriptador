@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <img class="logo_alura" src="./assets/alura_logo.png" alt="" id="alura_logo" />
+    <textarea class="cuadro_de_texto_uno" id="inputTexto" placeholder="Ingrese el texto aqui"></textarea>
+    <a><img src="./assets/exclamation.png" alt="signo_de_exclamacion">Solo letras minúsculas y sin acentos</a>
+    <button class="boton_encriptar" onclick="encriptarTexto()">Encriptar</button>
+    <button class="boton_desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+    <button class="boton_copiar" id="copiarTexto" onclick="copiarAlPortapapeles()">Copiar</button>
+    <textarea class="cuadro_de_texto_dos" id="outputTexto" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+    <script src="encriptador.js"></script>
+</body>
+</html>
